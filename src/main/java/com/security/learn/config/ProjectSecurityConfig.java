@@ -50,10 +50,10 @@ public class ProjectSecurityConfig {
 //
 //    }
 
-    @Bean
-    UserDetailsService userDetailsService(DataSource dataSource){
-        return new JdbcUserDetailsManager(dataSource);
-    }
+//    @Bean
+//    UserDetailsService userDetailsService(DataSource dataSource){
+//        return new JdbcUserDetailsManager(dataSource);
+//    }
 
 
     @Bean
