@@ -14,7 +14,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 
-@Service
+/**
+ * creating custom user service to check email exit or send the user
+ */
+
+//@Service
 public class CustomUserService implements UserDetailsService {
 
     @Autowired
